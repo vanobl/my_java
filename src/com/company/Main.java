@@ -12,7 +12,12 @@ public class Main {
 
         TaskTwo taskTwo = new TaskTwo();
         taskTwo.inputNumber("Бахтин", 2707541);
+        taskTwo.inputNumber("Бахтин", 2707542);
+        taskTwo.inputNumber("Путин", 2607551);
+        taskTwo.inputNumber("Путин", 2607552);
+
         taskTwo.getNumbers("Бахтин");
+        taskTwo.getNumbers("Путин");
     }
 
 }

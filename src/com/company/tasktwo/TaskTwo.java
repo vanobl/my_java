@@ -8,9 +8,12 @@ import java.util.Map;
 public class TaskTwo {
     Map<String, LinkedList<Integer>> myHM = new HashMap<>();
 
-    public LinkedList getNumbers(String surname) {
+    public void getNumbers(String surname) {
         LinkedList getNum = myHM.get(surname);
-        return getNum;
+
+        for (int i = 0; i < getNum.size(); i++) {
+            System.out.println(getNum.get(i));
+        }
     }
 
     public void inputNumber(String surname, Integer number) {
